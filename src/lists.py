@@ -47,15 +47,15 @@ match sys.argv[1]:
 
     case "times":
         # Put your solution to the second exercise here
-        times_three = x*3 
+        times_three = [3 * element for element in x]
         print_list(times_three)
 
     case "even":
         # Put your solution to the third exercise here
         even = []
         for i in range(len(x)):
-            if x(i) % 2 == 0:
-                even.append(x(i))
+            if x[i] % 2 == 0:
+                even.append(x[i])
         print_list(even)
 
     case _:
