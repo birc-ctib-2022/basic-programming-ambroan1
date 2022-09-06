@@ -13,3 +13,4 @@ for i in range (5,1,-1):
         else:
             print('*', end=' ')
     print('')
+
