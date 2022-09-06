@@ -12,5 +12,7 @@ for i in range (5,1,-1):
             print('*', end='')
         else:
             print('*', end=' ')
-    print('')
     
+    if i > 2:
+        #print(i)
+        print('')
