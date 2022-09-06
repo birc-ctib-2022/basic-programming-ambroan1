@@ -14,9 +14,15 @@ match command:
     case "encode":
         # Implement the encoding here
         encoding = ""
+        for character in x:
+            encoding += (hex(ord(character)))
         print(encoding)
 
     case "decode":
         # Implement the decoding here
         decoding = ""
+        x = x.split('0x')
+        x = x[1:len(x)]
+        for character in x:
+            decoding += (chr(int(character, base = 16)))
         print(decoding)
