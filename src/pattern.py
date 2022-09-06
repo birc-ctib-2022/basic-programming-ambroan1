@@ -1,4 +1,3 @@
-
 # Print the pattern
 for i in range (1,6):
     for j in range(0,i):
@@ -14,3 +13,4 @@ for i in range (5,1,-1):
         else:
             print('*', end=' ')
     print('')
+    
