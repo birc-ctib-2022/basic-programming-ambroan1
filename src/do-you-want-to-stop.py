@@ -3,6 +3,6 @@
 # the answer is "yes" (lower case).
 
 while(True):
-    answer = input('Do you want to stop? ')
-    if answer == 'yes'
-    break
+    answer = input('Do you want to stop?')
+    if answer == 'yes':
+        break
