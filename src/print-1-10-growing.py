@@ -6,6 +6,5 @@ for i in range (1,11):
             print(j+1, end='')
         else:
             print(j+1, end=' ')
-    #if i != 10:
     print('')
      
